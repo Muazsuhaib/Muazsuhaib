@@ -1,25 +1,22 @@
-[GitHub_README (2).md](https://github.com/user-attachments/files/27975473/GitHub_README.2.md)
+
 <div align="center">
 
 # Muaz Fnu
-
 ### Full Stack Engineer • AI/LLM Systems • Fintech • iOS
 
 🚀 CS student building production-ready software that ships to real users — not just demos.
 
 </div>
 
-
-
 ---
-
 
 I specialise in **Full Stack Development, AI-powered applications, and Fintech systems**, with hands-on experience delivering:
 
-- 🏦 Production APIs processing **1M+ daily transactions** at **JPMorgan Chase**
-- 🤖 AI-powered web apps serving **200+ concurrent sessions** using **Anthropic Claude API**
+- 🚀 AI-powered web apps handling **200+ concurrent sessions** as **Founding Software Engineer at CartMind**
+- 🤖 Agentic AI workflows and prompt engineering pipelines using **Anthropic Claude API**
+- 🏦 Secure fintech APIs serving **500+ daily active users** with **JWT-based authentication**
+- 🧠 ML pipelines achieving **~82% classification accuracy** on **10,000+ records**
 - 📱 Native iOS applications in **Swift/SwiftUI**
-- ⚡ End-to-end fintech APIs serving **500+ daily active users**
 
 > Focus: Building software that solves real problems for real users — fast.
 
@@ -64,13 +61,19 @@ I specialise in **Full Stack Development, AI-powered applications, and Fintech s
 
 ## 📌 Featured Projects
 
-### 🤖 [CartMind](https://github.com/Muazsuhaib/CartMind) — AI-Powered Full Stack Web App
+### 🚀 [CartMind](https://github.com/Muazsuhaib/CartMind) — Founding Software Engineer
 Full-stack GenAI application handling 200+ concurrent sessions.
 - React/TypeScript + Next.js frontend
 - FastAPI backend with PostgreSQL
 - Anthropic Claude API for agentic AI features
 - GitHub OAuth, Celery + Redis reducing task latency by ~35%
 - Deployed on AWS with Docker
+
+### 🔧 Task Manager API — Spring Boot + AI
+Production-grade REST API with AI-powered task suggestion endpoint.
+- Java, Spring Boot, Anthropic Claude API
+- 18 passing unit + integration tests
+- Containerized with Docker, deployed to GitHub
 
 ### 📱 [RecoverTogether](https://github.com/Muazsuhaib/RecoverTogether) — iOS Application
 Full iOS app helping users break bad habits and build healthier routines.
@@ -89,8 +92,8 @@ End-to-end automation pipeline processing 1,000+ emails with 99%+ uptime.
 
 ## 📈 Experience
 
-- 🏦 **Software Engineering Intern — JPMorgan Chase** — Built Java/Spring Boot APIs processing 1M+ daily transactions, reducing response time by 22% and latency by 30%
-- 🚀 **Software Engineering Intern — FinTech Startup** — Shipped FastAPI backend serving 500+ daily active users; improved query performance by 25% cutting response time from 180ms to 135ms
+- 🚀 **Founding Software Engineer — CartMind** — Built full-stack AI-powered app handling 200+ concurrent sessions using React, TypeScript, Next.js, FastAPI, and Anthropic Claude API; deployed on AWS with Docker
+- ⚡ **Software Engineering Intern — FinTech Startup** — Shipped FastAPI backend serving 500+ daily active users; improved query performance by 25% cutting response time from 180ms to 135ms
 - 🧠 **Research Assistant AI/ML — NYIT** — Built ML models achieving ~82% classification accuracy on 10,000+ records
 
 ---
