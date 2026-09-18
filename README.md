@@ -1,24 +1,21 @@
-
 <div align="center">
 
 # Muaz Fnu
-### Full Stack Engineer • AI/LLM Systems • Fintech • iOS
+### AI and Backend Engineer • LLM Systems • Fintech • iOS
 
-🚀 CS student building production-ready software that ships to real users — not just demos.
+CS student at NYIT building AI powered apps and backend systems. Graduating December 2026. Based in New York City.
 
 </div>
 
 ---
 
-I specialise in **Full Stack Development, AI-powered applications, and Fintech systems**, with hands-on experience delivering:
+I work mainly in **Python and TypeScript**, building backend services, LLM powered apps, and the infrastructure around them:
 
-- 🚀 AI-powered web apps handling **200+ concurrent sessions** as **Founding Software Engineer at CartMind**
-- 🤖 Agentic AI workflows and prompt engineering pipelines using **Anthropic Claude API**
-- 🏦 Secure fintech APIs serving **500+ daily active users** with **JWT-based authentication**
-- 🧠 ML pipelines achieving **~82% classification accuracy** on **10,000+ records**
-- 📱 Native iOS applications in **Swift/SwiftUI**
-
-> Focus: Building software that solves real problems for real users — fast.
+- 🚀 Built **CartMind** solo as **Founding Software Engineer**, an AI grocery agent handling **200+ concurrent sessions**
+- 🤖 Multi-step **Anthropic Claude API** workflows orchestrated with **LangGraph**
+- 🏦 Fintech APIs with **JWT authentication** serving **500+ daily active users**
+- 🧠 ML pipelines reaching **82% classification accuracy** on **10,000+ records**
+- 📱 Native iOS app in **Swift and SwiftUI**
 
 ---
 
@@ -32,17 +29,16 @@ I specialise in **Full Stack Development, AI-powered applications, and Fintech s
 ### 🔹 AI & LLM Integration
 - Anthropic Claude API (agentic workflows, prompt engineering)
 - OpenAI API (NLP, summarization, task generation)
-- LLM orchestration, prompt pipelines, AI-powered features
+- LangGraph orchestration, prompt pipelines, Redis caching for LLM calls
 
 ### 🔹 Backend & Infrastructure
-- PostgreSQL, MySQL, SQLite, MongoDB
+- PostgreSQL, MySQL, SQLite
 - Docker, AWS, GCP, Redis, Celery
-- CI/CD (Jenkins, GitHub Actions, TravisCI)
+- CI/CD (Jenkins, GitHub Actions)
 
 ### 🔹 Mobile Development
 - Swift, SwiftUI, Xcode
-- iOS app lifecycle, App Store deployment
-- Habit tracking, calendar systems, onboarding flows
+- Habit tracking, calendar systems
 
 ---
 
@@ -50,58 +46,55 @@ I specialise in **Full Stack Development, AI-powered applications, and Fintech s
 
 | Category | Technologies |
 |----------|-------------|
-| **Languages** | Python • Java • TypeScript • JavaScript • Swift • SQL • C/C++ |
-| **Frontend** | React • Next.js • Tailwind CSS • SwiftUI • Bootstrap |
+| **Languages** | Python • TypeScript • JavaScript • Java • Swift • SQL • C/C++ |
+| **AI & LLM** | Anthropic Claude API • OpenAI API • LangGraph • Prompt Engineering |
 | **Backend** | FastAPI • Spring Boot • Flask • Node.js |
-| **Databases** | PostgreSQL • MySQL • SQLite • MongoDB |
-| **Cloud & DevOps** | AWS • GCP • Docker • Git • CI/CD • Redis |
-| **AI Tools** | Anthropic Claude • OpenAI API • Cursor • Claude Code |
+| **Frontend** | React • Next.js • Tailwind CSS • SwiftUI |
+| **Databases** | PostgreSQL • MySQL • SQLite |
+| **Cloud & DevOps** | AWS • GCP • Docker • Git • Redis • Celery • GitHub Actions |
 
 ---
 
 ## 📌 Featured Projects
 
-### 🚀 [CartMind](https://github.com/Muazsuhaib/CartMind) — Founding Software Engineer
-Full-stack GenAI application handling 200+ concurrent sessions.
-- React/TypeScript + Next.js frontend
-- FastAPI backend with PostgreSQL
-- Anthropic Claude API for agentic AI features
-- GitHub OAuth, Celery + Redis reducing task latency by ~35%
-- Deployed on AWS with Docker
+### 🚀 [CartMind](https://github.com/Muazsuhaib/CartMind): Founding Software Engineer
+AI grocery agent, built solo. Describe a meal like "tacos for 4" and get a categorized grocery list with quantities and estimated prices. Keeps context across messages and streams responses in real time.
+- Claude API workflows orchestrated with LangGraph, Redis caching on Claude calls
+- FastAPI backend handling 200+ concurrent sessions
+- Celery and Redis workers for slow AI jobs (35% lower task latency)
+- React, TypeScript, Next.js frontend, GitHub OAuth, PostgreSQL, Docker on AWS
 
-### 🔧 Task Manager API — Spring Boot + AI
-Production-grade REST API with AI-powered task suggestion endpoint.
-- Java, Spring Boot, Anthropic Claude API
-- 18 passing unit + integration tests
-- Containerized with Docker, deployed to GitHub
+### 📱 [RecoverTogether](https://github.com/Muazsuhaib/RecoverTogether): iOS Application
+Full iOS app helping users recover from distractions and build healthier habits.
+- Built entirely in Swift and SwiftUI, solo
+- Calendar based task scheduling and habit tracking
 
-### 📱 [RecoverTogether](https://github.com/Muazsuhaib/RecoverTogether) — iOS Application
-Full iOS app helping users break bad habits and build healthier routines.
-- Built entirely in Swift/SwiftUI independently
-- Calendar-based habit tracking and task scheduling
-- App Store deployment
+### 🔧 Task Manager API: Spring Boot + AI
+REST API with a task suggestion endpoint that calls the Claude API.
+- Java, Spring Boot, Claude API, Docker
+- Vanilla JS frontend
+- 18 unit and integration tests
 
-### ⚡ AI Email Automation — NLP Pipeline
-End-to-end automation pipeline processing 1,000+ emails with 99%+ uptime.
-- Reduced manual processing time by 60-80%
-- OpenAI API for NLP-based summarization
-- Gmail API for real-time data ingestion
-- Modular, scalable Python architecture
+### ⚡ AI Email Automation: NLP Pipeline
+AI workflow that processed 1,000+ emails and cut manual handling time by over 60%.
+- OpenAI API for email processing
+- Gmail API for real-time ingestion
+- Modular Python pipeline with SQLite storage
 
 ---
 
 ## 📈 Experience
 
-- 🚀 **Founding Software Engineer — CartMind** — Built full-stack AI-powered app handling 200+ concurrent sessions using React, TypeScript, Next.js, FastAPI, and Anthropic Claude API; deployed on AWS with Docker
-- ⚡ **Software Engineering Intern — FinTech Startup** — Shipped FastAPI backend serving 500+ daily active users; improved query performance by 25% cutting response time from 180ms to 135ms
-- 🧠 **Research Assistant AI/ML — NYIT** — Built ML models achieving ~82% classification accuracy on 10,000+ records
+- 🚀 **Founding Software Engineer, CartMind** (Feb 2026 to Present): built the full product solo, from system design to deployment and monitoring
+- ⚡ **Software Engineering Intern, B2B FinTech Startup** (Sep 2025 to Dec 2025): built FastAPI auth and transaction services for 500+ daily active users, cut response time from 180ms to 135ms with PostgreSQL schema work, cut deployment time by 40% with Docker
+- 🧠 **Research Assistant, AI/ML, NYIT** (Jan 2025 to May 2025): built ML pipelines on 10,000+ records, 82% classification accuracy
 
 ---
 
 ## 🎯 Current Focus
-- Building AI-powered applications with LLMs and agentic workflows
-- Developing RecoverTogether iOS app
-- Exploring Kafka, NestJS, and distributed systems
+- Building AI powered applications with LLMs and agentic workflows
+- Developing RecoverTogether
+- Learning Kafka, NestJS, and distributed systems
 
 ---
 
